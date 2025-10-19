@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>METHRI VAISHNAVI - Portfolio</title>
+  <style>
+    /* ===== Reset & Base ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Poppins, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #1e293b;
+      line-height: 1.7;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    /* ===== Layout ===== */
+    header {
+      background: linear-gradient(to right, #6366f1, #06b6d4);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #1e293b;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 30px 25px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #2563eb;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #334155;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    /* ===== Cards ===== */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: linear-gradient(180deg, #f8fafc, #eef2ff);
+      border: 1px solid #e2e8f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      background: #1e293b;
+      color: #cbd5e1;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      section { margin: 30px 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <h1>METHRI VAISHNAVI</h1>
+    <p>Computer Science Student | Hyderabad, India</p>
+    <p>
+      <a href="mailto:vaishnavimethri@gmail.com" style="color:white;">vaishnavimethri@gmail.com</a> |
+      +91 86885 54142
+    </p>
+    <p>
+      <a href="https://linkedin.com/in/methri-vaishnavi" target="_blank" style="color:white;">LinkedIn</a> •
+      <a href="https://github.com/Vaishnavi-methri" target="_blank" style="color:white;">GitHub</a>
+    </p>
+  </header>
+
+  <!-- ===== Navigation ===== -->
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#internship">Internship</a>
+    <a href="#projects">Projects</a>
+    <a href="#strengths">Strengths</a>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="about">
+    <h2>Objective</h2>
+    <p>
+      Motivated and detail-oriented Computer Science student seeking an international internship 
+      opportunity to apply skills in software development and AI/ML. Eager to contribute to impactful 
+      projects, gain global exposure, and grow professionally in a dynamic environment.
+    </p>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech in Computer Science Engineering</strong> – Malla Reddy Engineering College for Women (2024–2027) | GPA: 84%</p>
+    <p><strong>Diploma in Computer Science Engineering</strong> – Kamala Nehru Polytechnic for Women (2021–2024) | 80%</p>
+    <p><strong>Secondary Education</strong> – Z.P.H.S (2021) | CGPA: 10/10</p>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Programming: Python, Java, C</li>
+      <li>Data Structures & Algorithms, DBMS</li>
+      <li>Web Technologies: HTML, CSS, JavaScript, Node.js, React</li>
+      <li>Artificial Intelligence & Data Analytics</li>
+    </ul>
+  </section>
+
+  <!-- ===== Certifications ===== -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Programming in Python, Java, Linux, Data Science – NSIC TSC</li>
+      <li>Data Foundation & AI, DevOps – Oracle</li>
+      <li>Cisco Certifications – Networking, Cyber Security, JavaScript</li>
+      <li>HP Life – AI for Business Professional</li>
+      <li>GenAI – TATA | Data Analytics – Deloitte | Infosys C, Java, Python</li>
+    </ul>
+  </section>
+
+  <!-- ===== Internship ===== -->
+  <section id="internship">
+    <h2>Internship</h2>
+    <p><strong>AICTE Virtual Internship – Artificial Intelligence & Data Analytics (Green Skills)</strong></p>
+    <p>25th Aug – 25th Sept 2025 | Organized by AICTE, Shell India & Edunet Foundation under Skills4Future Program.</p>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Fake News Detection</h3>
+        <p>Built a machine learning model in Python achieving 90% accuracy in classifying news articles as real or fake.</p>
+      </div>
+      <div class="project-card">
+        <h3>Predicting Coronary Heart Disease</h3>
+        <p>Used LightGBM to predict coronary heart disease risk with improved accuracy using medical datasets.</p>
+      </div>
+      <div class="project-card">
+        <h3>Gesture-Based Human-Computer Interaction</h3>
+        <p>Created an OpenCV-based system to control applications using hand gestures, enhancing accessibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Strengths ===== -->
+  <section id="strengths">
+    <h2>Strengths</h2>
+    <ul>
+      <li>Self-motivated and eager to learn new technologies</li>
+      <li>Adaptability and collaborative mindset</li>
+      <li>Creative and efficient problem-solving abilities</li>
+    </ul>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    © 2025 METHRI VAISHNAVI | Designed with 💙 using HTML & CSS
+  </footer>
+
+</body>
+</html>
